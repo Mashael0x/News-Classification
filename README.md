@@ -51,5 +51,7 @@ the steps to clean my text are as follow:
      
 
 ## Modeling 
-
+  I used CountVectorizer, tfidTransformer and Multinomial Naive Bayes in a pipeline and performed a grid scearch to explore best hyperparameters for my model.
+  before choosing these 3 instances I experimented with many models such as SVM, linear SVM, SGDclassifier and knn without using grid search. they all have less accuracy score     than Multinmoial Naive Bayes, there was a choice to perform grid search on SGDclassifier and get a higher result but unfortanutly it will take many hours on my device
+  to choose the best parameter so I stick to Multinomial Naive Bayes.
 
