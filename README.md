@@ -15,7 +15,7 @@ I selected a subset of this dataset and choose these topics:
 you can fetch this dataset from `sklearn.datasets`. the dataset contains 3 columns which is text, target and title.
 it doesn't have any null values.
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
  let's start by looking at the distribtion of news text length.
  as we can see most of news are only contains 400 words or less.
  
@@ -37,10 +37,10 @@ it doesn't have any null values.
  
  you can see more plots on most common words for each topic in my Google Colab notebook.
 
-### Text Cleaning
+## Text Cleaning
 
 
 
-### Modeling 
+## Modeling 
 
 
