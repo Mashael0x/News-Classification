@@ -39,7 +39,16 @@ it doesn't have any null values.
 
 ## Text Cleaning
 
+I used `nltk` to do text cleaning and prepare my data for the next step. 
+the steps to clean my text are as follow:
 
+     1. tokenize text
+     2. lower the words
+     3. remove punctuations
+     4. remove non-alphabetic characters
+     5. stem words using
+     6. join words so it doesn't save as a list which will created problems later when transforming text and modeling it.
+     
 
 ## Modeling 
 
