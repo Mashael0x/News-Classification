@@ -47,7 +47,7 @@ the steps to clean my text are as follow:
      3. remove punctuations
      4. remove non-alphabetic characters
      5. stem words using
-     6. join words so it doesn't save as a list which will created problems later when transforming text and modeling it.
+     6. join words so it doesn't save as a list in dataframe which will create problems later when transforming text and modeling it.
   ![image](https://github.com/Mashael0x/News-Classification/blob/main/text_clean_function.png)
      
 
