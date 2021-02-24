@@ -48,6 +48,7 @@ the steps to clean my text are as follow:
      4. remove non-alphabetic characters
      5. stem words using
      6. join words so it doesn't save as a list which will created problems later when transforming text and modeling it.
+  ![image](https://github.com/Mashael0x/News-Classification/blob/main/text_clean_function.png)
      
 
 ## Modeling 
@@ -55,3 +56,6 @@ the steps to clean my text are as follow:
   before choosing these 3 instances I experimented with many models such as SVM, linear SVM, SGDclassifier and knn without using grid search. they all have less accuracy score     than Multinmoial Naive Bayes, there was a choice to perform grid search on SGDclassifier and get a higher result but unfortanutly it will take many hours on my device
   to choose the best parameter so I stick to Multinomial Naive Bayes.
 
+classification report:
+
+![image](https://github.com/Mashael0x/News-Classification/blob/main/classification_report.png)
