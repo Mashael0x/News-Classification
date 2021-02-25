@@ -61,7 +61,7 @@ classification report:
 
 ![image](https://github.com/Mashael0x/News-Classification/blob/main/classification_report.png)
 
-## to-do:
+## To do:
  - [ ] Use full dataset and Experiment with other text transformation techniques like word embedding.
  - [ ] Use GPU packages like RAPIDS cuML.
  - [ ] expieremnt with R language and apply the same project using Tidyverse, Tidytext and Tidymodels.
